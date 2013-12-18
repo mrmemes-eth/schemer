@@ -1,5 +1,4 @@
-(defn atom? [sexpr]
-  (not (list? sexpr)))
+(load-file "atom.clj")
 
 (defn lat? [l]
   (cond
